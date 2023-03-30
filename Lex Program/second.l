@@ -17,7 +17,6 @@ enum|register|typedef|char|extern|return|union|continue
 
 int main()
 {
- printf("Abhinav Singh Yadav Studentid- 20011780\n");   
  yylex();						
  return 0;
 }
