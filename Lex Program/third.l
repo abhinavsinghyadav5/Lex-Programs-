@@ -11,7 +11,6 @@
 
 int main()
 {
-  printf("Abhinav Singh Yadav Studentid- 20011780\n");
   yylex();
   return 0;
 }
