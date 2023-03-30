@@ -5,9 +5,9 @@ int totalchar=0,word=0,wspace=0;
 
 %%
 
-" " {tspace++;tword++;}				
-[\t\n] tword++;						
-[^\n\t] tchar++;
+" " {wspace++;word++;}				
+[\t\n] word++;						
+[^\n\t] totalchar++;
 
 %%
 
