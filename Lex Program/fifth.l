@@ -15,7 +15,6 @@ int main()
 {
 yyin=fopen("fi2.txt","r");
 yylex();							
-printf("Abhinav Singh Yadav  Student- 20011780\n");
 printf("Number of characters:: %d\n",totalchar);
 printf("Number of words:: %d\n",word);
 printf("Number of spaces:: %d\n",wspace);
